@@ -4,16 +4,22 @@
 	* image加onload事件
 	* image加随机数
 * 遮盖层的宽高
- 
- ````javascript
+
+```javascript
 
 	function getDE(){
-		return (document.compatMode && document.compatMode.toLowerCase() == "css1compat") ? document.documentElement : document.body;
+		return (document.compatMode && document.compatMode.toLowerCase() == "css1compat") ?
+				document.documentElement : document.body;
     }
+
     function getWH(){
         var de = getDE();
-        return { width : Math.max( de.clientWidth , de.scrollWidth ) , 
+        return { width : Math.max( de.clientWidth , de.scrollWidth ) ,
         	height : Math.max( de.clientHeight , de.scrollHeight )
         };
     }
-````
+```
+
+* 判断全局变量是否存在用window.xxx，直接判断变量会因为undefined报错导致程序无法继续
+* 用==不用===
+* parseInt必须传第二个参数
