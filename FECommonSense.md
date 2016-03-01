@@ -27,3 +27,4 @@
 	* 修改response头：Access-Control-Allow-Origin
 	* xhr.withCredentials = true
 	* 参考 http://www.html5rocks.com/en/tutorials/cors/
+* fekit组件内需要install其他组建时要保证根目录有fekit_modules目录才可以安装
