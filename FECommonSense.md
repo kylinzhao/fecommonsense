@@ -29,3 +29,5 @@
 	* 参考 http://www.html5rocks.com/en/tutorials/cors/
 * fekit组件内需要install其他组建时要保证根目录有fekit_modules目录才可以安装
 * HttpServletRequest.getScheme获取https结果获得了http [stackoverflow](http://stackoverflow.com/questions/19598690/how-to-get-host-name-with-port-from-a-http-or-https-request)
+* windows抓包代理软件fiddler
+* mac抓包代理软件charles
