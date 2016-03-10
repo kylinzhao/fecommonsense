@@ -31,5 +31,6 @@
 * HttpServletRequest.getScheme获取https结果获得了http [stackoverflow](http://stackoverflow.com/questions/19598690/how-to-get-host-name-with-port-from-a-http-or-https-request)
 * windows抓包代理软件fiddler
 * mac抓包代理软件charles
-* 图片在浏览器上的内存消耗 长*宽*2bytes
+* 图片在浏览器上的内存消耗 长*宽*4bytes
 * 渲染图片的内存消耗跟显示大小无关，跟图片本身尺寸有关
+* 微信调试工具 http://blog.qqbrowser.cc/
