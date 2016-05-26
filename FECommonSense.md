@@ -21,7 +21,7 @@
 ```
 
 * 判断全局变量是否存在用window.xxx，直接判断变量会因为undefined报错导致程序无法继续
-* 用==不用===
+* 用===不用==
 * parseInt必须传第二个参数
 * HTML5跨域办法
 	* 修改response头：Access-Control-Allow-Origin
