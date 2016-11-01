@@ -38,4 +38,4 @@
 * 接口、API等命名绝对不能叫newXXX，oldXXX之类的
 * 不要让依赖第三方的接口把整个页面搞挂，需要让这部分内容异步加载
 * CSS，DOM命名最好不要带AD，极有可能被adblock之类的广告插件给拦掉
-* React Compnent 首字母必须为大写，原因：http://stackoverflow.com/questions/30373343/reactjs-component-names-must-begin-with-capital-letters
+* React Compnent 首字母必须为大写，[参考原因](http://stackoverflow.com/questions/30373343/reactjs-component-names-must-begin-with-capital-letters)
